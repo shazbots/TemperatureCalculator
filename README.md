@@ -8,17 +8,17 @@ This Python code will calculate the average temperatures of multiple state capit
 - Denver, Colorado
 
 The temperatures are being pulled from the openweathermap.org API.
-The states and capitals csv was originally from https://github.com/jasperdebie/VisInfo/blob/master/us-state-capitals.csv however, I had to make some modifications to that file, because of "unclean text", like "<BR>" at the end of some location names.
+The states and capitals csv was originally from https://github.com/jasperdebie/VisInfo/blob/master/us-state-capitals.csv however, I had to make some modifications to that file, because of "unclean text", like `<BR>` at the end of some location names.
 The final temperature result will be truncated to the nearest **tenth** of a degree.
 
 ### Dependencies
 * This program was ran on Python 3.12
 * It uses the following libraries:
-** argparse
-** configparser
-** numpy
-** polars
-** requests
+  * argparse
+  * configparser
+  * numpy
+  * polars
+  * requests
 
 ### Executing the Program
 * Before executing the program, make sure you have put the `config.ini` file in the same directory as the `TemperatureCalculator.py` file. Make sure to have the appropriate settings for the file:
