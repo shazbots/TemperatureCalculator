@@ -1,6 +1,5 @@
-# TemperatureCalculator
-A side project to practice cURL commands and polars dataframes, along with other Python libraries.
-This program will calculate the current average temperature of various US capital cities, based on the starting letter of state's name.
+# Average Temperature Calculator
+(Based on Starting Letter of State's Name)
 
 ## Description:
 This Python code will calculate the average temperatures of multiple state capitals, based on the starting letter of a state's name. For example, if you enter the letter "C", you will calculate the current average temperatures of:
